@@ -1,3 +1,13 @@
+/*
+*  Search media entries by custom data in Kaltura API 
+*
+* @Created on 6/9/2015, last modified on 6/9/2015
+* @author: Dayong Sun
+* 
+* Node: this code is for SaaS mediaspace. For self-hosted servers serviceUrl must be modified
+*/
+
+
 var kaltura = require('./KalturaClient.js');
 var kalturaTypes = require('./KalturaTypes.js');
 var vo = require('./KalturaVO.js')
